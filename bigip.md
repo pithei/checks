@@ -6,3 +6,9 @@ https://techdocs.f5.com/kb/en-us/products/big-ip_ltm/manuals/product/bigip-syste
 ```bash
 tmsh show /cm failover-status
 tmsh run /cm watch-sys-device
+
+# verify NTP
+tmsh show /sys service ntpd
+tmsh restart /sys service ntpd
+
+ntpq -np
