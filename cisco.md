@@ -15,6 +15,11 @@ sh l2route evpn mac all
 sh l2route evpn mac-ip all
 ```
 
+## Routing
+```bash
+sh ip ospf neighbors
+
+```
 
 ## draft
 ```bash
