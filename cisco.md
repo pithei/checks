@@ -1,10 +1,12 @@
 ## VXLAN
 
 ```bash
-show vlan id <id>
-sh nve interface 
-sh nve vni
 sh nve peers
+sh nve vni
+sh nve interface 
+
+show vlan id <id>
+
 sh bgp l2vpn evpn summary
 sh bgp l2vpn evpn
 sh ip arp suppression-cache detail
