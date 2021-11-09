@@ -2,6 +2,15 @@
 
 ```bash
 show vlan id <id>
+sh nve interface 
+sh nve vni
+sh nve peers
+sh bgp l2vpn evpn summary
+sh bgp l2vpn evpn
+sh ip arp suppression-cache detail
+sh vxlan
+sh l2route evpn mac all
+sh l2route evpn mac-ip all
 ```
 
 
