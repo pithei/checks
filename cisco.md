@@ -1,5 +1,6 @@
 ## Ciso ASA
 ```bash
+show interface ip brief
 
 show crypto isakmp sa
 show crypto ipsec sa
